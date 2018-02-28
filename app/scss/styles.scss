@@ -1,15 +1,14 @@
-footer {
-    ul {
-        li {
-            color : green;
-        }
+body {
+    background-color: #dddddd;
+}
+
+.heroDiv {
+    #heroImg {
+        width: 100%;
     }
 }
 
-#theo {
-    width: 900px;
-}
-
-body {
-    background-color: grey;
+.noPadMar {
+  padding: 0;
+  margin: 0;
 }

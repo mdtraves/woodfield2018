@@ -1,8 +1,9 @@
-footer ul li {
-  color: darkorange; }
-
-#theo {
-  width: 500px; }
-
 body {
-  background-color: grey; }
+  background-color: #dddddd; }
+
+.heroDiv #heroImg {
+  width: 100%; }
+
+.noPadMar {
+  padding: 0;
+  margin: 0; }

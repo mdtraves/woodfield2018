@@ -2,26 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Overlock:400,700,900" rel="stylesheet">
     <!--build:css css/styles.min.css-->
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <!--endbuild-->
 
 </head>
 <body>
-    <header>
-
-        <h1>*************app 13****************</h1>
-    </header>
-
-
-    <img src="images/theo.jpg" alt="theo" id="theo">
-    
+<nav class="navbar navbar-expand-md navbar-light bg-faded" id="menutop">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">BRAND</a>
+    <!-- Links -->
+    <div class="collapse navbar-collapse justify-content-end" id="nav-content">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">SERVICES</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">GALLERY</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">INFO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">MORE</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">STUFF</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<section>
+<div class="container-fluid noPadMar heroDiv text-center">
+<img src="images/theo.jpg" alt="theo" id="heroImg">
+</div>
+</section>
     <section>
-        <h1 id="target">Mike1</h1>
-        <button id="clicker">Click Me!</button>
-        <h2 id="changer">You havent clicked yet</h2>
+
+
+        <div class="row">
+            <div class="container col-sm-6 text-center"><h2 id="target">Mike1</h2></div>
+            <div class="container col-sm-6 text-center"><button id="clicker">Click Me!</button>
+                <h2 id="changer text-center">You havent clicked yet</h2></div>
+        </div>
+
+
     </section>
     <footer>
         <ul>
@@ -34,8 +72,11 @@
     </footer>
     
     <!--build:js js/main.min.js -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/cta.js"></script>
     <script src="js/scripts.js"></script>
     <!-- endbuild -->
+
 </body>
 </html>
